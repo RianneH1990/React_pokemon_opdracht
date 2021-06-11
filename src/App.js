@@ -29,7 +29,6 @@ function App() {
                 setPokemonData(result.data.results);
                 setNextLink(result.data.next);
                 setPreviousLink(result.data.previous);
-                console.log(result);
             } catch (e) {
                 setError(e);
                 console.error()
