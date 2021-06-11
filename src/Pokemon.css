@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pokemonCard {
+    display: flex;
+    background-color: hsl(65, 100%, 97%);
+    color: hsl(233, 100%, 18%);
+    margin: 10px;
+    padding: 10px 0px 10px 0px;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+}
+.ability {
+    padding: 2px;
+    margin: 2px 2px 6px 2px;
+    list-style: none;
+    border: 2px solid;
+    background-color: hsl(42, 100%, 56%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h3 {
+    padding-bottom: 4px;
+}
